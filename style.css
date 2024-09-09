@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+
+
+/* body{
+    background-image: url(King.jpg);
+}  */
+  *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+  }
+  header{
+   background-image: url(King.jpg);
+   background-size: cover;
+   height: 100vh;
+  }
+ .navlist{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding-top: 15px;
+ }
+
+ .navlist a{
+    padding: 10px 20px;
+    font-weight: 100;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+ }
+ .navlist a:hover{
+   color: black;
+   background-color: white;
+   border-radius: 8px;
+ }
+ .home-content h1{
+    font-weight: 500;
+    color: white;
+    padding-top: 200px;
+    padding-right: 180px;
+    font-size: 50px;
+    text-align: right;
+    letter-spacing: 5px;
+ }
+ 
+ .home-content h3{
+    font-weight: 200;
+    color: white;
+    font-size: 30px;
+    text-align: right;
+    padding-right: 100px;
+    letter-spacing: 8px;
+ }
+ .home-content p{
+    color: white;
+    text-align: right;
+    padding-right: 100px;
+    font-size: 18px;
+    overflow-wrap: break-word;
+    font-weight: 100;
+ }
+ .about{
+   background-color: black;
+   height: 740px;
+ }
+
+  img{
+   height: 740px;
+   width: 600px;
+   
+ }
+ .about-content{
+   display: flex;
+   /* flex-direction: grid; */
+   text-align: left;
+   color: white;
+   /* padding-bottom: 200px; */
+   /* color: white; */
+ }
+ .text{
+    padding-top: 170px;
+    /* justify-content: center; */
+    padding-left: 400px;
+ }
+ .text h2{
+   font-family: "Baskervville SC";
+  letter-spacing: 3px;
+  font-size: 50px;
+ }
+.text pre{
+   font-family: "Baskervville SC";
+   font-size: 20px;
+   font-weight: 100;
+   padding-left: 87px;
+   letter-spacing: 2px;
+}
+
+#para{
+   font-size: 20px;
+   padding-top: 50px;
+   padding-right: 150px;
+   font-family: 'Courier New', Courier, monospace;
+}
+button{
+   border-radius: 5px;
+   font-size: 20px;
+   padding : 8px;
+   margin-top:30px;
+  background-color: black;
+  color: white;
+  border: none;
+  /* text-decoration: none; */
+  /* padding-top: 100px; */
+}
+button:hover{
+   background-color: white;
+   color: black;
+}
